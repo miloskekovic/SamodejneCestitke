@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ozadje_za_cestitke"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.samodejnecestitke.DodajanjeNovegaKontakta" >
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/editTextTelefonskaStevilka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/modra"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="@color/crna"
+            android:textAppearance="@style/mediumFont"
+            android:layout_alignBaseline="@+id/textViewTelefonskaStevilka"
+            android:layout_alignBottom="@+id/textViewTelefonskaStevilka"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/editTextDanRojstva"
+            android:layout_toEndOf="@+id/editTextDanRojstva" />
+
+        <Spinner
+            android:id="@+id/spinnerVera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewVera"
+            android:layout_alignRight="@+id/editTextTelefonskaStevilka"
+            android:layout_alignTop="@+id/textViewVera"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/textViewVera"
+            android:background="@color/modra" />
+
+        <TextView
+            android:id="@+id/textViewImeInPriimek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewVnosKontakta"
+            android:layout_marginTop="13dp"
+            android:text="@string/textViewImeInPriimek"
+    		android:gravity="center"
+            android:textAppearance="@style/mediumFont" />
+
+        <TextView
+            android:id="@+id/textViewDatumRojstva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewImeInPriimek"
+            android:layout_below="@+id/textViewImeInPriimek"
+            android:layout_marginTop="10dp"
+            android:text="@string/textViewDatumRojstva"
+            android:textAppearance="@style/mediumFont" />
+
+        <Button
+            android:id="@+id/buttonIzbrisiKontakt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/buttonUrediKontakt"
+            android:layout_toRightOf="@+id/textViewTelefonskaStevilka"
+            android:contentDescription="@string/action_settings"
+            android:onClick="izbrisiKontakt"
+            android:text="@string/buttonIzbrisiKontakt"
+            android:textAppearance="@style/mediumFont"
+            android:src="@drawable/izbrisi_kontakt" />
+
+        <Button
+            android:id="@+id/buttonShraniKontakt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="run"
+            android:text="@string/buttonShraniKontakt"
+            android:textAppearance="@style/mediumFont"
+            android:layout_above="@+id/buttonIzbrisiKontakt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewVnosKontakta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/textViewVnosKontakta"
+            android:textColor="@color/crna"
+            android:textAppearance="@style/largeFont"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonUrediKontakt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonShraniKontakt"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textViewTelefonskaStevilka"
+            android:contentDescription="@string/action_settings"
+            android:onClick="urediKontakt"
+            android:src="@drawable/uredi_kontakt"
+            android:text="@string/buttonUrediKontakt"
+            android:textAppearance="@style/mediumFont" />
+
+        <EditText
+            android:id="@+id/editTextImeInPriimek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/textViewImeInPriimek"
+            android:background="@color/modra"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/mediumFont"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textViewImeInPriimek"
+            android:layout_above="@+id/textViewDatumRojstva" />
+
+        <EditText
+            android:id="@+id/editTextDanRojstva"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@color/modra"
+            android:ems="2"
+            android:inputType="number"
+            android:textAppearance="@style/mediumFont"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_alignBaseline="@+id/textViewDatumRojstva"
+            android:layout_alignBottom="@+id/textViewDatumRojstva"
+            android:layout_alignLeft="@+id/editTextImeInPriimek"
+            android:layout_alignStart="@+id/editTextImeInPriimek" />
+
+        <TextView
+            android:id="@+id/textViewTelefonskaStevilka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="@string/textViewTelefonskaStevilka"
+            android:textAppearance="@style/mediumFont"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewVera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewTelefonskaStevilka"
+            android:layout_below="@+id/textViewTelefonskaStevilka"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/textViewVera"
+            android:textAppearance="@style/mediumFont" />
+
+        <TextView
+            android:id="@+id/textViewSporociloZaRojstniDan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewVera"
+            android:layout_below="@+id/spinnerVera"
+            android:layout_marginTop="10dp"
+            android:text="@string/textViewSporociloZaRojstniDan"
+            android:textAppearance="@style/mediumFont"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/editTextSporociloZaRojstniDan"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@color/modra"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="@string/editTextSporociloZaRojstniDan"
+            android:textColor="@color/crna"
+            android:layout_below="@+id/textViewSporociloZaRojstniDan"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textViewSporociloZaBozic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/textViewSporociloZaBozic"
+            android:textAppearance="@style/mediumFont"
+            android:layout_below="@+id/editTextSporociloZaRojstniDan"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editTextSporociloZaBozic"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:background="@color/modra"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="@string/editTextSporociloZaBozic"
+            android:textColor="@color/crna"
+            android:layout_below="@+id/textViewSporociloZaBozic"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/editTextMesecRojstva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="2"
+            android:textAppearance="@style/mediumFont"
+            android:background="@color/modra"
+            android:inputType="number"
+            android:layout_alignTop="@+id/editTextDanRojstva"
+            android:layout_toEndOf="@+id/editTextDanRojstva"
+            android:layout_toRightOf="@+id/editTextDanRojstva"
+            android:layout_alignBottom="@+id/editTextDanRojstva"
+            android:layout_gravity="center_horizontal|center_vertical"/>
+
+        <EditText
+            android:id="@+id/editTextLetoRojstva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/mediumFont"
+            android:ems="4"
+            android:inputType="number"
+            android:background="@color/modra"
+            android:layout_alignBaseline="@+id/textViewDatumRojstva"
+            android:layout_alignBottom="@+id/textViewDatumRojstva"
+            android:layout_toRightOf="@+id/editTextMesecRojstva"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/editTextMesecRojstva"
+            android:layout_gravity="center_horizontal|center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:textColor="@color/crna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(dd/mm/yyyy)"
+            android:layout_below="@+id/editTextDanRojstva"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+</RelativeLayout>

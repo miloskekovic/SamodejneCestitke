@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\milos_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_693dc0d401e9456b00a11fd301268c494da60d2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\milos_000\.android\build-cache\ab9638f0b1e1e5d8f6fd632d7d85b19e5825c900\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_a53d3e7a73d97ab5365f5cd2ce3b2416f160ccb9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6985ae7bd89d2851d2dc53f5848c72405cd7150c">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bb0adc93b6c59535ce2cee78f20e4ab4db154102\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\milos_000\.android\build-cache\ab9638f0b1e1e5d8f6fd632d7d85b19e5825c900\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\pre-dexed\debug\classes_1ce483e6037cf960f3f4cb44eeeea638710675ec.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f47178b508c669408ab0ddb57a4badcba984e098\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\milos_000\.android\build-cache\b8a5786222994c6abd48cd40e40bea461ec3e3e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\milos_000\AndroidStudioProjects\SamodejneCestitke\app\build\intermediates\pre-dexed\debug\classes_aa861c98393cf6af71abfe7fcc039fe11ee8f296.jar" />
+    </item>
+
+</items>

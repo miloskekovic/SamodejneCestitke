@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\calendar_right_arrow_selector.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\drawable-mdpi\\calendar_right_arrow_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ozadje_za_cestitke.jpg",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\drawable-mdpi\\ozadje_za_cestitke.jpg"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\calendar_left_arrow_selector.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\drawable-mdpi\\calendar_left_arrow_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\calendar_button_selector.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\drawable-mdpi\\calendar_button_selector.xml"
+    }
+]

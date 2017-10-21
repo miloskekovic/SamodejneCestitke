@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemPosortirajKontakte"
+        android:title="@string/posortirajKontakte">
+    </item>
+
+    <item
+        android:id="@+id/itemIzprazniBazo"
+        android:title="@string/izprazniBazo">
+    </item>
+   
+</menu>

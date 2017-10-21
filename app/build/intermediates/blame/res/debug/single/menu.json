@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\izbrisi_doloceni_kontakt.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\izbrisi_doloceni_kontakt.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dodajanje_novega_kontakta.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\dodajanje_novega_kontakta.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\settings.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\kontakti.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\kontakti.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\nastavitve.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\nastavitve.xml"
+    },
+    {
+        "merged": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\build\\intermediates\\res\\merged\\debug\\menu\\my_calendar.xml",
+        "source": "C:\\Users\\milos_000\\AndroidStudioProjects\\SamodejneCestitke\\app\\src\\main\\res\\menu\\my_calendar.xml"
+    }
+]

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ozadje_za_cestitke"
+    tools:context="com.example.samodejnecestitke.MainActivity" >
+
+    <ImageButton
+        android:id="@+id/imageButtonDodajKontakt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dodaj_kontakt_ikona"
+        android:contentDescription="@string/action_settings"
+        android:onClick="ustvariNoviKontakt" />
+
+    <ImageButton
+        android:id="@+id/buttonKontakti"
+        android:layout_width="80dp"
+        android:layout_height="95dp"
+        android:layout_alignBottom="@+id/imageButtonDodajKontakt"
+        android:layout_alignRight="@+id/buttonNastavitve"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/phonebook"
+        android:contentDescription="@string/action_settings"
+        android:onClick="pokaziVseKontakte" />
+
+    <ImageButton
+        android:id="@+id/buttonNastavitve"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/nastavitve"
+        android:contentDescription="@string/action_settings"
+        android:onClick="pokaziNastavitve" />
+
+    <ImageButton
+        android:id="@+id/buttonKoledar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="57dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/calendar_icon"
+        android:contentDescription="@string/action_settings"
+        android:onClick="pokaziKoledar" />
+
+</RelativeLayout>
